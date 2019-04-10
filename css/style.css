@@ -1,5 +1,6 @@
 .navbar {
-    background: linear-gradient(40deg, rgba(0,51,199,.3), rgba(209,149,249,.3));
+    background: linear-gradient(40deg, rgba(0,51,199,.8), rgba(209,149,249,.9));
+    transition: all .5s ease-in-out;
   }
   .navbar:not(.top-nav-collapse) {
     background: transparent;
@@ -55,4 +56,17 @@
   .test
   {
       max-height:600px;
+  }
+  .aff{
+    max-height: 100px;
+  }
+  .team-section
+  {
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important;
+  }
+
+  .banner_b
+  {
+      width:100% !important;
   }
