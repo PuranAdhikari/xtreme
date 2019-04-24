@@ -94,7 +94,7 @@
 }
 
 
-.fixed-action-btn{position:fixed;right:23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:997}
+.fixed-action-btn{position:fixed;left: 23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:997}
 .fixed-action-btn.active ul{visibility:visible}
 .fixed-action-btn.direction-left,.fixed-action-btn.direction-right{padding:0 0 0 15px}
 .fixed-action-btn.direction-left ul,.fixed-action-btn.direction-right ul{text-align:right;right:64px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);height:100%;left:auto;width:500px}
@@ -305,3 +305,73 @@ button.btn-floating{border:none}
   -webkit-border-radius: .125rem;
   border-radius: .125rem;
 }
+
+.h-top
+{
+  margin-top: 150px !important;
+
+}
+
+li.dropdown:hover > .dropdown-menu, li.dropdown-submenu:hover > .dropdown-menu {
+  display: block !important;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0 !important;
+  left: -100% !important;
+}
+.dropdown-submenu {
+  position: relative;
+}
+section.team-section .avatar img {
+  max-width: 200px;
+  height: auto;
+}
+
+.btn-fb {
+  background-color: #3b5998!important;
+  color: #fff;
+}
+.btn-floating.btn-sm i {
+  font-size: .96154rem;
+  line-height: 36.15385px;
+}
+.btn-tw {
+  background-color: #55acee!important;
+  color: #fff;
+}
+.btn-dribbble {
+  background-color: #ec4a89!important;
+  color: #fff;
+}
+.btn-li {
+  background-color: #0082ca!important;
+  color: #fff;
+}
+.btn-pin {
+  background-color: #c61118!important;
+  color: #fff;
+}
+.btn-email {
+  background-color: #4b515d!important;
+  color: #fff;
+}
+.btn-git {
+  background-color: #333!important;
+  color: #fff;
+}
+html [type=button] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.fb-ic {
+  color: #3b5998!important;
+}
+.tw-ic {
+  color: #55acee!important;
+}
+.li-ic {
+  color: #0082ca!important;
+}
+
