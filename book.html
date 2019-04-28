@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/book.css" rel="stylesheet">
+</head>
+
+<body>
+<style>
+.navbar:not(.top-nav-collapse)
+{
+  background: rgba(66,148,244,0.9) !important;
+}
+</style>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1272779569496749&autoLogAppEvents=1"></script> 
+  <!-- Start your project here-->
+  <!--Navbar -->
+  <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="img/svg/arrow_left.svg" alt="mdb logo">logo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+      aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+              Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="expedition.html">
+              Expeditions
+          </a>
+        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="trek.html">
+                    Trekking
+                </a>
+              </li>          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      About Xtreme
+                    </a>
+                    <ul class="dropdown-menu multi-level">
+                      <li><a href="about.html">About Us</a></li>
+                      <li class="divider"></li>
+                      <li><a href="gallery.html">Image Gallery</a></li>
+                      <li class="dropdown-submenu">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="#">Action</a></li>
+                              <li class="dropdown-submenu">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li><a href="faq.html">FAQ</a></li>
+                  </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">
+                          Contact Us
+                      </a>
+                    </li>           
+
+          
+
+      </ul>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+<!-- Default form register -->
+<div class="container h-top mb-5">
+        <h2 class=" font-weight-bold card-title text-center mb-5"><strong>Reservation</strong></h2>
+<form class="text-center border border-light p-5">
+
+    <p class="h4 mb-4 text-muted">Fill all Details for Reservation</p>
+    <p class="h6 mb-4 blue-grey-text">Trip Detail</p>
+    <div class="form-row mb-2">
+            <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormTripName" class="form-control" placeholder="Everest Base Camp">
+            </div>
+        </div>
+    <p class="h6 mb-4 blue-grey-text">Personal Information</p>
+
+    <div class="form-row mb-2">
+        <div class="col-md-6 mbb-2">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-md-6">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+    <div class="form-row mb-4">
+            <div class="col-md-4 mb-0">
+                <!-- First name -->
+                <select class="browser-default custom-select mb-2">
+                    <option value="" selected disabled>Country</option>
+                    <option value="1">Canada</option>
+                    <option value="2">Nepal</option>
+                    <option value="3">France</option>
+                    <option value="4">Germany</option>
+                </select>            
+            </div>
+            <div class="col-md-4 mbb-2">
+                <!-- Last name -->
+                <input type="email" id="defaultRegisterFormEmail" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="col-md-4">
+                    <!-- Last name -->
+                    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+            </div>
+        </div>
+        <p class="h6 mb-4 blue-grey-text">Estimated Planning</p>
+        <div class="form-row mb-2">
+                <div class="col-md-6 mbb-2">
+                    <!-- First name -->
+                    <input type="text" id="defaultRegisterPerson" class="form-control" placeholder="Number of Person" aria-describedby="defaultRegisterFormPerson">
+                </div>
+                <div class="col-md-6">
+                    <!-- Last name -->
+                    <input type="text" id="defaultRegisterBudget" class="form-control" placeholder="Estimated Budget (in USD)" aria-describedby="defaultRegisterFormBudget">
+                </div>
+            </div>
+            <div class="form-row mb-2">
+                    <div class="col-md-6 mbb-2">
+                            <!-- Last name -->
+                            <input type="text" id="defaultRegisterFormDuration" class="form-control" placeholder="Duration of Stay (Days)" aria-describedby="defaultRegisterFormDuration">
+                        </div>
+                    <div class="col-md-6">
+                        <!-- First name -->
+                        <select class="browser-default custom-select">
+                            <option value="" selected disabled>Airport Pickup</option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>            
+                    </div>
+                </div>
+                <div class="form-row mb-4">
+                    
+                        <div class="col-md-6 mbb-2">
+                                <!-- Last name -->
+                                <input type="text" id="defaultRegisterFormArrival" class="form-control datepicker" placeholder="Arrival Date" aria-describedby="defaultRegisterFormArrival">
+                        </div>
+                        <div class="col-md-6">
+                                    <!-- Last name -->
+                                <input type="text" id="defaultRegisterFormDeparture" class="form-control datepicker" placeholder="Departure Date" aria-describedby="defaultRegisterFormDeparture">
+                        </div>
+                    </div>
+                    <p class="h6 mb-4 blue-grey-text">Interested Areas</p>
+                    <div class="form-row mb-2">
+                        <div class="col"></div>
+                        <div class=" col">
+                            <label>Country</label>
+                        </div>
+                        <div class=" col custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                                <label class="custom-control-label" for="defaultContactFormCopy">Nepal</label>
+
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="form-group">
+                            <textarea class="form-control rounded-0" id="defaultContactFormPlan" rows="3" placeholder="Details About Your Plan "></textarea>
+                        </div>
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">Book</button>
+
+
+    <hr>
+
+    <!-- Terms of service -->
+    <p>By clicking
+        <em>Book</em> you agree to our
+        <a href="" target="_blank">terms of service</a>
+
+</form>
+</div>
+<!-- Default form register -->
+<footer class="page-footer font-small unique-color-dark">
+
+    <div style="background-color: #31316e;">
+      <div class="container">
+
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+for facebook page plugin
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+currency converter plugin
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Bansbari, Kathmandu, Nepal</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>  info@xtremeclimbers.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 977 - 9801027078</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 977 - 9851027078</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">All contents © Copyright 2019 Xtreme Climbers Treks and Expedition (P) Ltd All Rights Reserved.
+      <a href=""> </a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  
+  <!-- Footer -->
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+    $('.datepicker').datepicker();
+  });
+</script>
+</body>
+
+</html>

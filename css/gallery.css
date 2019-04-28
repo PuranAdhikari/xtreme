@@ -20,3 +20,16 @@
     transition: transform .25s ease-in-out;
     border:3px solid #33b5e5;
 }
+
+.change{
+width: 100%;
+    background: white;
+    padding: 2rem;
+    color: #000 !important;
+    margin-bottom: 0px;
+    margin-top: 150px !important;
+}
+.modal-footer{
+    text-align: center !important;
+    display: block;
+}

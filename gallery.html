@@ -91,39 +91,61 @@
         <h2 class="h1-responsive font-weight-bold text-center my-5">Gallery</h2>
   <div class="row justify-content-center">
       <div class="col-md-4 mt-2">
-            <a href="img/mt2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-                <img src="img/mt2.jpg" class="img-fluid img-gallery">
-            </a> 
+          <div class="view overlay zoom">
+                <img data-src="img/mt2.jpg" class="lazy img-fluid img-gallery">
+              <div class="mask flex-center" href="img/mt2.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="Mt Alps">
+                <p class="white-text change">Mt Alps</p>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-md-4 mt-2">
+          <div class="view overlay zoom">
+              <img data-src="img/peak.jpg" class="lazy img-fluid img-gallery">
+            <div class="mask flex-center" href="img/peak.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+              <p class="white-text change">Mt Alps</p>
+            </div>
+          </div>
       </div>
       <div class="col-md-4 mt-2">
-            <a href="img/peak.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-                <img src="img/peak.jpg" class="img-fluid img-gallery">
-            </a>
+          <div class="view overlay zoom">
+              <img data-src="img/trek.jpg" class="lazy img-fluid img-gallery">
+            <div class="mask flex-center" href="img/trek.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+              <p class="white-text change">Mt Alps</p>
+            </div>
+          </div>
       </div>
       <div class="col-md-4 mt-2">
-            <a href="img/trek.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-                <img src="img/trek.jpg" class="img-fluid img-gallery">
-            </a>
+          <div class="view overlay zoom">
+              <img data-src="img/pass.jpg" class="lazy img-fluid img-gallery">
+            <div class="mask flex-center" href="img/pass.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+              <p class="white-text change">Mt Alps</p>
+            </div>
+          </div>
       </div>
       <div class="col-md-4 mt-2">
-            <a href="img/pass.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-                <img src="img/pass.jpg" class="img-fluid img-gallery">
-            </a>
-      </div>
-      <div class="col-md-4 mt-2">
-      <a href="img/pass.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-        <img src="img/pass.jpg" class="img-fluid img-gallery">
-    </a>
+          <div class="view overlay zoom">
+              <img data-src="img/pass.jpg" class="lazy img-fluid img-gallery">
+            <div class="mask flex-center" href="img/pass.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+              <p class="white-text change">Mt Alps</p>
+            </div>
+          </div>
 </div>
 <div class="col-md-4 mt-2">
-        <a href="img/peak.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-            <img src="img/peak.jpg" class="img-fluid img-gallery">
-        </a>
+    <div class="view overlay zoom">
+        <img data-src="img/peak.jpg" class="lazy img-fluid img-gallery">
+      <div class="mask flex-center" href="img/peak.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+        <p class="white-text change">Mt Alps</p>
+      </div>
+    </div>
   </div>
   <div class="col-md-4 mt-2">
-        <a href="img/trek.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-            <img src="img/trek.jpg" class="img-fluid img-gallery">
-        </a>
+      <div class="view overlay zoom">
+          <img data-src="img/trek.jpg" class="lazy img-fluid img-gallery">
+        <div class="mask flex-center" href="img/trek.jpg" data-toggle="lightbox" data-footer="A custom footer text" data-gallery="example-gallery">
+          <p class="white-text change">Mt Alps</p>
+        </div>
+      </div>
   </div>
     </div>
 </div>
@@ -254,9 +276,14 @@ currency converter plugin
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script type="text/javascript" src="js/gallery.js"></script>
   <script type="text/javascript" src="js/my.js"></script>
+  <script type="text/javascript" src="js/jquery.lazy.js"></script>
 <script>
     $(document).ready(function(){
-
+      $('.lazy').lazy({
+          effect: "fadeIn",
+          effectTime: 2000,
+          threshold: 0
+        });
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
