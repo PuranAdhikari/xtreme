@@ -15,6 +15,7 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -25,7 +26,7 @@
   <!--Navbar -->
   <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
     <a class="navbar-brand" href="#">
-      <img src="img/svg/arrow_left.svg" alt="mdb logo">logo
+      <img src="img/image10.png" alt="mdb logo">  Xtreme Climber's Trek
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
       aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,6 +58,10 @@
                       <li><a href="about.html">About Us</a></li>
                       <li class="divider"></li>
                       <li><a href="gallery.html">Image Gallery</a></li>
+                      <li class="divider"></li>
+                      <li><a href="client.html">Clients</a></li>
+                      <li class="divider"></li>
+                      <li><a href="team.html">Our Team</a></li>
                       <li class="dropdown-submenu">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
                           <ul class="dropdown-menu">
@@ -84,7 +89,7 @@
 
 <!--Carousel Wrapper-->
 
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class="carousel slide carousel-fade test" data-ride="carousel">
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -93,10 +98,10 @@
   </ol>
   <!--/.Indicators-->
   <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner test" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100 test" src="img/p2.jpg"
+        <img class="d-block w-100 test" src="img/mt2.jpg"
           alt="First slide">
         <div class="mask rgba-black-light"></div>
       </div>
@@ -115,7 +120,7 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100 test" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+        <img class="d-block w-100 test" src="img/peak.jpg"
           alt="Second slide">
         <div class="mask rgba-black-strong"></div>
       </div>
@@ -134,7 +139,7 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+        <img class="d-block w-100 test" src="img/p2.jpg"
           alt="Third slide">
         <div class="mask rgba-black-slight"></div>
       </div>
@@ -168,12 +173,12 @@
 
 
 <!-- Section: Features v.3 -->
-<section class="">
+<section class="people">
 
   <!-- Section heading -->
   <h2 class="h1-responsive font-weight-bold text-center my-5">Why People choose us?</h2>
   <!-- Section description -->
-  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Xtreme Climbers has leaded the way in traveling, trekking and climbing in Nepal. We will take you to interesting and exciting places of natural wonders, enabling you to experience high adventures and local cultures set against the magnificent backdrop of the Himalayan range - a setting where joy and tranquility prevail for one's eternal peace and happiness</p>
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5 ">Xtreme Climbers has leaded the way in traveling, trekking and climbing in Nepal. We will take you to interesting and exciting places of natural wonders, enabling you to experience high adventures and local cultures set against the magnificent backdrop of the Himalayan range - a setting where joy and tranquility prevail for one's eternal peace and happiness</p>
 
   <!-- Grid row -->
   <div class="row row-no-m">
@@ -275,7 +280,7 @@
             </div>
             <!--Grid row-->
             <!--Grid row-->
-            <div class="row">
+            <div class="row mb-3">
 
               <!-- Grid column -->
               <div class="col-1">
@@ -311,7 +316,11 @@
 <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
   
-
+    <div class="controls-top mb-3">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+            class="fas fa-chevron-right"></i></a>
+      </div>
   
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
@@ -319,7 +328,7 @@
       <!--First slide-->
       <div class="carousel-item active">
   
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4">
           <div class="card mb-2">
             <img class="card-img-top"
               src="img/mt2.jpg"
@@ -337,7 +346,7 @@
           </div>
         </div>
   
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4">
           <div class="card mb-2">
             <img class="card-img-top"
               src="img/mt2.jpg"
@@ -497,14 +506,20 @@
       <!--/.Third slide-->
   
     </div>
-    <!--/.Slides-->
       <!--Indicators-->
       <ol class="carousel-indicators sec_ol">
-        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-        <li data-target="#multi-item-example" data-slide-to="1"></li>
-        <li data-target="#multi-item-example" data-slide-to="2"></li>
-      </ol>
-      <!--/.Indicators-->
+          <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+          <li data-target="#multi-item-example" data-slide-to="1"></li>
+          <li data-target="#multi-item-example" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+    <div class="controls-top mt-2">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+            class="fas fa-chevron-right"></i></a>
+      </div>
+    <!--/.Slides-->
+
   </div>
 </div>
 
@@ -694,7 +709,68 @@
   </div>
 </div>
 <!-- Jumbotron -->
-
+<!--Added Section -->
+<div class="container mt-5 added">
+  <div class="row">
+    <div class="col-sm-12 col-md-7">
+      <div class="row mb-2">
+        <div class="col-sm-12 col-md-5 fr-short fr-p-5">
+            <div class="view rounded z-depth-1 zoom">
+                <img src="img/mt2.jpg" class="img-fluid fr-short" alt="zoom">
+                <div class="mask flex-center waves-effect waves-light">
+                  <p class="white-text change"><span class="badge badge-pill badge-info bigger pl-3 pr-3">Kathmandu City</span></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-7 fr-short fr-p-5">
+            <div class="view rounded z-depth-1 zoom">
+                <img src="img/trek.jpg" class="img-fluid fr-short" alt="zoom">
+                <div class="mask flex-center waves-effect waves-light">
+                  <p class="white-text change"><span class="badge badge-pill badge-info bigger pl-3 pr-3">Kathmandu City</span></p>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="fr col-sm-12 col-md-7 fr-medium fr-p-5">
+              <div class="view rounded z-depth-1 zoom">
+                  <img src="img/pass.jpg" class="img-fluid fr-medium" alt="zoom">
+                  <div class="mask flex-center waves-effect waves-light">
+                    <p class="white-text change"><span class="badge badge-pill badge-warning bigger pl-3 pr-3">Kathmandu City</span></p>
+                  </div>
+                </div>
+          </div>
+          <div class="fr col-sm-12 col-md-5">
+              <div class="row fr-vshort fr-p-5">
+                      <div class="view rounded z-depth-1 zoom">
+                          <img src="img/peak.jpg" class="img-fluid fr-vshort" alt="zoom">
+                          <div class="mask flex-center waves-effect waves-light">
+                            <p class="white-text change"><span class="badge badge-pill badge-warning bigger pl-3 pr-3">Hotel Booking</span></p>
+                          </div>
+                        </div>
+              </div>
+              <div class="row fr-vshort fr-p-5">
+                  <div class="view rounded z-depth-1 zoom">
+                      <img src="img/trek.jpg" class="img-fluid fr-vshort" alt="zoom">
+                      <div class="mask flex-center waves-effect waves-light">
+                        <p class="white-text change"><span class="badge badge-pill badge-info bigger pl-3 pr-3">Kathmandu City</span></p>
+                      </div>
+              </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="fr col-sm-12 col-md-5 fr-long fr-p-5">
+      <div class="view rounded z-depth-1 zoom">
+          <img src="img/long.jpg" class="img-fluid fr-long" alt="zoom">
+          <div class="mask flex-center waves-effect waves-light">
+            <p class="white-text change"><span class="badge badge-pill badge-info bigger pl-3 pr-3">Kathmandu City</span></p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Added Section-->
 <!-- Projects section v.4 -->
 <section class="container text-center my-5">
 
@@ -841,11 +917,11 @@
       <div class="row text-center">
   
         <!--Grid column-->
-        <div class="col-lg-2 col-md-12 mb-4">
+        <div class="col-lg-2 col-md-6 mb-4">
   
           <!--Image-->
           <div class="view overlay ">
-            <img src="img/a1.svg" class="img-fluid aff" alt="">
+            <img src="img/a1.svg" class="img-fluid aff mx-auto d-block" alt="">
             <a href="">
               <div class="mask rgba-white-light"></div>
             </a>
@@ -855,39 +931,11 @@
         <!--Grid column-->
   
         <!--Grid column-->
-        <div class="col-lg-2 col-md-12 col-sm-12 mb-4">
+        <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
   
           <!--Image-->
           <div class="view overlay">
-            <img src="img/a2.png" class="img-fluid aff" alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-  
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-12 mb-4">
-  
-          <!--Image-->
-          <div class="view overlay">
-            <img src="img/a3.svg" class="img-fluid aff" alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-  
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-12 mb-4">
-  
-          <!--Image-->
-          <div class="view overlay">
-            <img src="img/a4.svg" class="img-fluid aff" alt="">
+            <img src="img/a2.png" class="img-fluid aff mx-auto d-block" alt="">
             <a href="">
               <div class="mask rgba-white-light"></div>
             </a>
@@ -901,7 +949,7 @@
   
           <!--Image-->
           <div class="view overlay">
-            <img src="img/a5.svg" class="img-fluid aff" alt="">
+            <img src="img/a3.svg" class="img-fluid aff mx-auto d-block" alt="">
             <a href="">
               <div class="mask rgba-white-light"></div>
             </a>
@@ -915,7 +963,35 @@
   
           <!--Image-->
           <div class="view overlay">
-            <img src="img/a6.svg" class="img-fluid aff" alt="">
+            <img src="img/a4.svg" class="img-fluid aff mx-auto d-block" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay">
+            <img src="img/a5.svg" class="img-fluid aff mx-auto d-block" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay">
+            <img src="img/a6.svg" class="img-fluid aff mx-auto d-block" alt="">
             <a href="">
               <div class="mask rgba-white-light"></div>
             </a>
@@ -931,7 +1007,7 @@
 
 
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large red">
+      <a class="btn-floating btn-large minfo">
           <i class="fas fa-align-justify"></i>
       </a>
       <ul>
@@ -1034,9 +1110,10 @@ currency converter plugin
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">All contents © Copyright 2019 Xtreme Climbers Treks and Expedition (P) Ltd All Rights Reserved.
+    <div class="footer-copyright text-center py-3 pl-3 pr-3">All contents © Copyright 2019 Xtreme Climbers Treks and Expedition (P) Ltd All Rights Reserved.
       <a href=""> </a>
     </div>
+    <footer class="blockquote-footer mr-2 text-right"><cite title="Source Title">Designed By : FireAnt</cite></footer>
     <!-- Copyright -->
 
   </footer>
@@ -1056,11 +1133,13 @@ currency converter plugin
 
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/gallery.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script type="text/javascript" src="js/my.js"></script>
 <script>
     $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
+
   });
 </script>
 </body>

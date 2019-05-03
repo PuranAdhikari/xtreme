@@ -65,7 +65,7 @@
   }
   .test
   {
-      max-height:600px;
+    height:100vh;
   }
   .aff{
     max-height: 100px;
@@ -288,6 +288,10 @@ button.btn-floating{border:none}
 {
   height:500px;
 }
+.h-55
+{
+  height: 550px;
+}
 .top-0
 {
   top:0;
@@ -406,4 +410,141 @@ html [type=button] {
 .trans
 {
   transform: translate(0,20px);
+}
+
+/* added section*/
+.fr-long{
+  height: 608px;
+}
+.fr-short{
+  height: 250px;
+}
+.fr-vshort
+{
+  height: 180px;
+}
+.fr-medium
+{
+  height: 350px;
+}
+.fr-p-5
+{
+  padding:5px !important;
+}
+
+.change {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 20vh !important;
+}
+.navbar-brand img{
+  height:70px !important;
+  margin:0px !important;
+}
+.navbar-brand{
+  padding: 0px 0px 0px 20px !important;
+  font-variant: petite-caps;
+  font-weight: 600;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top:0px !important;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption p{
+  font-size: larger;
+}
+#multi-item-example .controls-top
+{
+  display: none;
+}
+.added img{
+  width: 100%;
+}
+.minfo{
+  background: #4294f4 !important;
+}
+@media (max-width: 760px) {
+  .fr-long,.fr-short,.fr-vshort,.fr-medium
+  {
+    height: 350px;margin: 5px 0px;
+  }
+  .fr-p-5
+  {
+    padding:0px 15px !important;
+  }
+  .fr
+  {
+    padding: 0px;
+  }
+  .carousel-caption {
+    right: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+}
+.carousel-caption p{
+  font-size:medium;
+}
+.people p{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.people img{
+  display: none;
+}
+.people .row.mb-3{
+  padding-left: 3rem;
+}
+#multi-item-example .carousel-inner .carousel-item.active, .carousel-multi-item .carousel-item-next, .carousel-multi-item .carousel-item-prev {
+  display: block !important;
+}
+#multi-item-example .controls-top
+{
+  display: block;
+}
+.banner{
+  height: 200px;
+}
+.listing{
+  text-align: center;
+}
+.feature-top-text h1{
+  font-size: 5rem;
+}
+.feature-top-text {
+
+  bottom: 0px; 
+  width: 100%;
+  top: 0;
+  margin-top: 100px;
+}
+#myTab li:nth-child(1) {
+  margin-left: 50px;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0 !important;
+  left: 100% !important;
+}
+.navbar-brand img {
+  height: 40px !important;
+
+}
+.navbar-brand{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.navbar:not(.top-nav-collapse)
+{
+  background: rgba(66,148,244,0.9) !important;
+}
+
 }
