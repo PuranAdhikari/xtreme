@@ -472,10 +472,18 @@ html [type=button] {
 .minfo{
   background: #4294f4 !important;
 }
+@media (min-width: 1270px) {
+  .feature-top-text {
+    bottom: 350px;
+}
+}
 @media (max-width: 760px) {
   .fr-long,.fr-short,.fr-vshort,.fr-medium
   {
     height: 350px;margin: 5px 0px;
+  }
+  .w-100{
+    width:auto !important;
   }
   .fr-p-5
   {
@@ -546,5 +554,13 @@ html [type=button] {
 {
   background: rgba(66,148,244,0.9) !important;
 }
-
+.fr-8{
+  width: 80%;
+  overflow: hidden;
 }
+.fr-4{
+  width: 20%;
+}
+}
+
+.fixed-action-btn-right{display:none;position:fixed;right: 23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:997}
