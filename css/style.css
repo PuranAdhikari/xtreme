@@ -151,6 +151,7 @@ button.btn-floating{border:none}
 {
   width: 100%;
   min-height: 500px;
+  background-repeat: no-repeat !important;
 }
 
 .feature-top-text
@@ -472,9 +473,21 @@ html [type=button] {
 .minfo{
   background: #4294f4 !important;
 }
-@media (min-width: 1270px) {
+.back-card
+{
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+  background-size: cover !important;  
+}
+@media (min-width: 1200px) {
   .feature-top-text {
     bottom: 350px;
+}
+.feature-top
+{
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+  background-size: contain !important;
 }
 }
 @media (max-width: 760px) {
